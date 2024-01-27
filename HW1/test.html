@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Effects</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        .parallax-container {
+            height: 100vh;
+            overflow: hidden;
+            perspective: 1px;
+            perspective-origin: 0 0;
+        }
+
+        .parallax-layer {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform-style: preserve-3d;
+            transform: translateZ(-1px) scale(2);
+        }
+
+        .parallax-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: translateZ(1px) scale(2);
+            background-attachment: fixed;
+            opacity: 0.7;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animated-text {
+            font-size: 2em;
+            animation: bounceText 2s infinite alternate;
+        }
+
+        @keyframes bounceText {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parallax-container">
+        <div class="parallax-layer">
+            <img class="parallax-image" src="/Users/ashwamegha/Downloads/571/HW1/images/image3.png" alt="Image 1">
+        </div>
+        <div class="content">
+            <h2 class="animated-text">CSS Animation Effects</h2>
+            <p>Your content goes here.</p>
+        </div>
+    </div>
+
+</body>
+</html>

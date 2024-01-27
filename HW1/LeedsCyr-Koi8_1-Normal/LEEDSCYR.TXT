@@ -1,0 +1,25 @@
+These files are five fonts containing what I hope are all the characters needed to write in all the Cyrillic languages.
+
+These fonts will form part of a shareware package of fonts and macros which will be released shortly, so if any characters are missing, please let me know as soon as possible.
+
+The package will be called LeedsCyr, and will work in exactly the same manner as my shareware package LeedsBit, which can be found in CICA and other archives.
+
+LeedsBit enables the user to do word-processing easily and simply in almost any Latin-alphabet language; LeedsCyr will do the same in Cyrillic-alphabet languages.
+
+Please note: LeedsCyr is not limited to the Slavonic Cyrillic languages. I have included all the characters which I could find for non-Slavonic languages using the Cyrillic script, such as Chechen, Kazakh, Mari, Ossetian, etc. However, I am not a specialist in these languages, and would welcome advice.
+
+The final package will include True Type and Postscript Type 1 versions of the fonts. I will try to include other versions if there is enough demand. Please let me know exactly what you need.
+
+N.B. These fonts do NOT include the italic versions of Cyrillic letters. I am working on italic characters for Russian, Ukrainian, Belorussian and Bulgarian, but I do not know and cannot find out the italic versions of characters in the other languages. Advice would be greatly appreciated.
+
+This version of the fonts is free for non-commercial use: the final package will be shareware but very cheap.
+
+Copyright belongs to the University of Leeds, UK.
+
+Alec McAllister
+Computing Service
+University of Leeds
+LS2 9JT
+United Kingdom
+
+email: 	T.A.McAllister@Leeds.AC.UK
